@@ -1,0 +1,76 @@
+.bandeiras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.baseBandeira {
+    width: 30rem;
+    height: 20rem;
+    border: 0.1rem black solid;
+}
+
+.particaoVerdeBrasil {
+    visibility: hidden;
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.particaoAmarelaBrasil {
+    position: relative;
+    width: 70%;
+    height: 70%;
+}
+
+.simboloAmarelo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangulo1 {
+    width: 0;
+    height: 0;
+    border-right: 12rem solid yellow;
+    border-top: 7rem transparent solid;
+    border-bottom: 7rem transparent solid;
+}
+
+.triangulo2 {
+    width: 0;
+    height: 0;
+    border-left: 12rem solid yellow;
+    border-top: 7rem solid transparent;
+    border-bottom: 7rem solid transparent;
+}
+
+.particaoAzulBrasil{
+    z-index: 1;
+    position: absolute;
+    background-color: blue;
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sloganBrasil{
+    width: 100%;
+    transform:rotate(15deg);
+    background-color: white;
+    display: flex;
+   justify-content: center;
+}
